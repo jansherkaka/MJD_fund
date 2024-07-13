@@ -1,0 +1,82 @@
+.header {
+  background: url("../images/hero-background.png") center center no-repeat;
+  background-size: cover;
+}
+.text-lg {
+  font-size: 56px;
+}
+
+.finance {
+  background: url("../images/finance-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.imag-box {
+  background: url("../images/hero-background.png") center center no-repeat;
+  background-size: cover;
+}
+.navbar-sticky {
+  opacity: 0.9;
+}
+.text-success {
+  opacity: 0.1;
+}
+.text-danger {
+  opacity: 0.1;
+}
+.hero-right {
+  top: 0;
+  right: 0;
+  transform: translate(-6%, -31%);
+}
+.hero-left {
+  bottom: 0;
+  left: 0;
+  transform: translate(-44%, -54%);
+}
+.hero-bottom {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-100%, 40%);
+}
+.about-svg-bottom {
+  bottom: 0;
+  left: 75%;
+  transform: translate(-100%, -20%);
+}
+.about-hero-right {
+  top: 50%;
+  right: 0;
+  transform: translate(39%, -50%);
+}
+
+.about-hero-left {
+  top: 50%;
+  left: 0;
+  transform: translate(39%, -50%);
+}
+.about-hero-b-left {
+  bottom: 0;
+  left: 0;
+  transform: translate(-33%, -50%);
+}
+.hero-right {
+  bottom: 0;
+  right: 0;
+  transform: translate(-7%, 31%);
+}
+
+@media (max-width: 992px) {
+  .text-lg {
+    font-size: 46px;
+  }
+  .hero-content {
+    text-align: center;
+  }
+
+  .navbar {
+    background: #942f3a;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
